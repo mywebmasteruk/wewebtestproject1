@@ -1,0 +1,56 @@
+{
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "d11830df-aef7-45be-9d62-9469f9db7800",
+        "name": "Charts",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "d66a250d-8468-469e-ad33-ee028f632398": {
+        "id": "4d58ce25-cdf3-407e-bf81-36c3669b6b82",
+        "name": "OpenAI",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "d66a250d-8468-469e-ad33-ee028f632398",
+        "publicData": {}
+    },
+    "6a64802c-52f8-4637-9932-580bf178aaa7": {
+        "id": "40ec67ee-3e66-4f5b-8dc4-e60b62276a26",
+        "name": "WeWeb Auth",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "6a64802c-52f8-4637-9932-580bf178aaa7",
+        "publicData": {
+            "clientId": "3c2lvju5qc0nlf2ckineq63uq7",
+            "userPoolId": "us-east-1_VdTiOsqUI",
+            "invitationEmail": {
+                "EmailMessage": "Hi,<br/><br/>You have been invited to join the <b>Webinar-Preview</b> application.<br/>Please login with your email <b>{username}</b> using the password below:<br/><b>{####}</b><br/><br/>Best.",
+                "EmailSubject": "Invitation to join Webinar-Preview application"
+            },
+            "verificationEmail": {
+                "EmailMessage": "Hi,<br/><br/>Here is your verification code <b>{####}</b> to change your password on the <b>Webinar-Preview</b> application.<br/><br/>Best.<br/>",
+                "EmailSubject": "Your verification code for Webinar-Preview application",
+                "DefaultEmailOption": "CONFIRM_WITH_CODE"
+            }
+        }
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "02561c22-dd62-44c8-8012-551c8b4e6777",
+        "name": "Date",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {}
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "427866bc-c396-49d2-99e3-d37f138da1c0",
+        "name": "Supabase Auth",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {}
+    },
+    "29809245-a5ea-4687-af79-952998abab22": {
+        "id": "78415d7c-b1af-438b-a2cf-e0ac64b4f0da",
+        "name": "Airtable",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "29809245-a5ea-4687-af79-952998abab22",
+        "publicData": {}
+    }
+}

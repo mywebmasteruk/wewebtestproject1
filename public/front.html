@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+ 
+<!-- wwFront:start -->
+<html class="" lang="<%= htmlWebpackPlugin.options.lang %>">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" />
+        <base
+            href="<%= htmlWebpackPlugin.options.baseTag?.href %>"
+            target="<%= htmlWebpackPlugin.options.baseTag?.target %>"
+        />
+
+        <% if (htmlWebpackPlugin.options.title) { %>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <% } %>
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico?_wwcv=<%= htmlWebpackPlugin.options.cacheVersion %>" />
+
+        <link rel="manifest" href="manifest.json?_wwcv=5" />
+        <meta name="theme-color" content="" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="public/fonts/Phosphor/font.css?_wwcv=5" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="public/fonts/Bakbak One/font.css?_wwcv=5" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<style>:root{ --ww-default-font-family: 'Montserrat', sans-serif }</style>
+        <style>
+:root {
+--6e2d49af-ee1c-438c-aad7-cb0d84f9d37f: #000000;
+--428e5fcd-6175-41c4-94bf-8eae5338be39: #6A9FC8;
+--5a003667-3804-4d11-9877-2e393f405681: #F6AE28;
+--d1d5743d-e893-4cad-8b04-f67381536daf: #3F3F46;
+--41a2eba2-29f4-49a9-b2e7-6c6088d5e35f: #FFFFFF;
+--08c0e8cd-70b4-425d-bb33-9c9aab245f4f: #33658A;
+--9cf66ab6-e441-4915-8c03-2eb450fb7909: #A6C6DE;
+--b1eedf5d-862b-4b40-a1db-6f5d24a7db9a: #2F4858;
+--a7ca33e2-39ac-4a5b-972c-465c1cf69180: #52525B;
+--52be8b6a-2507-409b-bad3-0fc2fc08317a: #F8C462;
+--c6634b72-0692-4496-a0b4-e67aae1dcbb8: #E29402;
+--ec12db02-3baf-43ec-aa8e-22c2d121aa31: #F16319;
+--6e4e729f-c1a2-4962-b29b-4a2dca907d68: #F9D38A;
+--7300967a-796d-44e3-a8e3-2c0fee68b13f: 12px;
+--5ed588bc-13c9-44d5-9fce-5345dcf7cddf: 16px;
+--e15aa9f5-c557-4c66-bbe1-6890168782d8: 32px;
+--dea5492e-579e-45ac-a912-8a98f2252dab: #BBBBC3;
+--7e117e00-1ad2-4549-bb20-d2600417cfed: #088C41;
+--b9c9f089-0d10-4399-893f-cafb51a7f77f: #AA0306;
+--24c34ef7-35b9-4c94-93d1-76732cc8540f: #1C2C36;
+--794b0614-0160-4a44-826b-35522355fa61: #E4EAED;
+--c80cad50-efa5-496f-b402-78a116f81bf8: 500 14px/normal 'Bakbak One', serif;
+--aa1e71bf-2756-4a2d-a338-e0e1f9dd13e9: 500 18px/22px 'Bakbak One', serif;
+--6aac7304-234b-4b13-8868-091d2d4855a9: 700 16px/normal 'Bakbak One', serif;
+--cb6b895a-3741-4c78-b30d-b4e33c3bc60e: #FFFFFF80;
+--860e3aaf-b28d-4809-b1fd-74b582f27405: 100 12px/normal 'Bakbak One', serif;
+--26745f73-090b-4dcb-b51a-0b1ba1bbbfac: 500 24px/20px 'Bakbak One', serif;
+--992b896b-9208-4356-b5ae-b52277616597: 4px;
+--f4de8d1f-54ec-49df-a1ab-cc3836152d30: 12px;
+--e0cc0a62-b63d-40d8-998c-57dffec849d0: 20px;
+--53d47ffc-e23d-43c3-a6d0-796212069680: 24px;
+--578045c7-991b-4709-88a6-624a28984410: 28px;
+--4482e330-8391-4f29-b844-b37cb98a3dae: 8px;
+--5bbb0e60-aa58-4369-b6f0-8ae573e9bed9: 500 18px/normal var(--ww-default-font-family, sans-serif);
+--a1358b5e-e80d-43f1-b502-bbd413a6d8ab: 500 16px/normal var(--ww-default-font-family, sans-serif);
+--65ed08de-16d0-46b8-8d07-ba6e828e6a07: 400 14px/normal var(--ww-default-font-family, sans-serif);
+--4a47d29a-58bc-4379-a78d-bf8d0733fa80: 400 10px/normal var(--ww-default-font-family, sans-serif);
+--58b60560-6320-4fee-80a7-f238c9188244: 400 12px/normal var(--ww-default-font-family, sans-serif);
+--d39e1943-688a-4b52-92ba-cb9a93ca0c67: 30px;
+--976498db-e313-48c6-be90-0a5ba80c2aab: 40px;
+--d33a1c22-374a-4420-9c89-3533717ee9b4: 60px;
+--60d10a6c-80be-44c1-9a47-93f222c270b8: 500 38px/100% 'Bakbak One', serif;
+--7a979126-dd7c-4210-9e79-999949af8f5d: 100%;}
+.ww-app-theme-dark {
+}
+</style>
+        <link href="https://cdn.weweb.app/public/libs/weweb-icons/css/weweb-icons.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/heroicons/1.0.0/style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/phosphor/1.0.0/regular/phosphor-style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <% for (let link of htmlWebpackPlugin.options?.alternateLinks || []) { %>
+        <link rel="<%= link.rel %>" hreflang="<%= link.hreflang %>" href="<%= link.href %>" />
+        <% } %> <% if (htmlWebpackPlugin.options.structuredData) { %>
+        <script type="application/ld+json">
+            <%= htmlWebpackPlugin.options.structuredData %>
+        </script>
+        <% } %> <%= htmlWebpackPlugin.options.scripts?.head %>
+    </head>
+    <body style="margin: 0; font-family: var(--ww-default-font-family, unset)">
+        <noscript>
+            <strong>
+                We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <%= htmlWebpackPlugin.options.scripts?.body %>
+    </body>
+</html>
+<!-- wwFront:end -->
