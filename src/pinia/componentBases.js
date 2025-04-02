@@ -6,6 +6,7 @@ export const useComponentBasesStore = defineStore('componentBases', () => {
     /* wwFront:start */
     // eslint-disable-next-line no-undef
     configurations = {'plugin-29809245-a5ea-4687-af79-952998abab22': getInheritedConfiguration({ ...require('@/components/plugins/plugin-29809245-a5ea-4687-af79-952998abab22/ww-config.js').default, name: 'plugin-29809245-a5ea-4687-af79-952998abab22' }),
+'plugin-f9ef41c3-1c53-4857-855b-f2f6a40b7186': getInheritedConfiguration({ ...require('@/components/plugins/plugin-f9ef41c3-1c53-4857-855b-f2f6a40b7186/ww-config.js').default, name: 'plugin-f9ef41c3-1c53-4857-855b-f2f6a40b7186' }),
 'plugin-d66a250d-8468-469e-ad33-ee028f632398': getInheritedConfiguration({ ...require('@/components/plugins/plugin-d66a250d-8468-469e-ad33-ee028f632398/ww-config.js').default, name: 'plugin-d66a250d-8468-469e-ad33-ee028f632398' }),
 'plugin-1fa0dd68-5069-436c-9a7d-3b54c340f1fa': getInheritedConfiguration({ ...require('@/components/plugins/plugin-1fa0dd68-5069-436c-9a7d-3b54c340f1fa/ww-config.js').default, name: 'plugin-1fa0dd68-5069-436c-9a7d-3b54c340f1fa' }),
 'plugin-6a64802c-52f8-4637-9932-580bf178aaa7': getInheritedConfiguration({ ...require('@/components/plugins/plugin-6a64802c-52f8-4637-9932-580bf178aaa7/ww-config.js').default, name: 'plugin-6a64802c-52f8-4637-9932-580bf178aaa7' }),

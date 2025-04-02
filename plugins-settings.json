@@ -6,13 +6,6 @@
         "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
         "publicData": {}
     },
-    "d66a250d-8468-469e-ad33-ee028f632398": {
-        "id": "4d58ce25-cdf3-407e-bf81-36c3669b6b82",
-        "name": "OpenAI",
-        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
-        "pluginId": "d66a250d-8468-469e-ad33-ee028f632398",
-        "publicData": {}
-    },
     "6a64802c-52f8-4637-9932-580bf178aaa7": {
         "id": "40ec67ee-3e66-4f5b-8dc4-e60b62276a26",
         "name": "WeWeb Auth",
@@ -40,7 +33,7 @@
         "publicData": {}
     },
     "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
-        "id": "427866bc-c396-49d2-99e3-d37f138da1c0",
+        "id": "6ef55beb-9c0f-4b6b-ab24-e4a77b8ae286",
         "name": "Supabase Auth",
         "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
         "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
@@ -52,5 +45,23 @@
         "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
         "pluginId": "29809245-a5ea-4687-af79-952998abab22",
         "publicData": {}
+    },
+    "d66a250d-8468-469e-ad33-ee028f632398": {
+        "id": "4d58ce25-cdf3-407e-bf81-36c3669b6b82",
+        "name": "OpenAI",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "d66a250d-8468-469e-ad33-ee028f632398",
+        "publicData": {}
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "75ff8318-5654-4dbd-baff-def2bebb73a7",
+        "name": "Supabase",
+        "designId": "87f2db50-a21d-4ef6-afdc-1ab7f71670a5",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnY3FwbXZienBna2N3ZGpndWJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MDAzMDcsImV4cCI6MjA1OTE3NjMwN30.NnlQozr3W83QJOvqmq94jg2WRQGNajogfiRhjxGOw98",
+            "projectUrl": "https://bgcqpmvbzpgkcwdjgubs.supabase.co",
+            "realtimeTables": {}
+        }
     }
 }
